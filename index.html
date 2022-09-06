@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>u1tbmo's Landing Page</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero-img"></div>
+    <div class="wrapper">
+        <header>
+            <a href="index.html" class="logo">u1<span>Shoes</span></a>
+            <nav>
+                <svg class="close" xmlns="http://www.w3.org/2000/svg"><path d="m20 22.583-8.25 8.25q-.542.5-1.292.5t-1.291-.5q-.5-.541-.5-1.291 0-.75.5-1.292l8.25-8.25-8.25-8.25q-.5-.542-.5-1.292t.5-1.291q.541-.5 1.291-.5.75 0 1.292.5l8.25 8.25 8.25-8.25q.542-.5 1.292-.5t1.291.5q.5.541.5 1.291 0 .75-.5 1.292L22.583 20l8.25 8.25q.5.542.5 1.292t-.5 1.291q-.541.5-1.291.5-.75 0-1.292-.5Z"/></svg>
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sneakers</a></li>
+                    <li><a href="#">Players</a></li>
+                </ul>
+            </nav>
+
+            <svg class="menu" fill="#ffffff" xmlns="http://www.w3.org/2000/svg"><path d="M6.375 30.75q-.75 0-1.292-.542-.541-.541-.541-1.291 0-.792.541-1.313.542-.521 1.292-.521h27.25q.75 0 1.292.521.541.521.541 1.313 0 .75-.541 1.291-.542.542-1.292.542Zm0-8.917q-.75 0-1.292-.541-.541-.542-.541-1.292 0-.792.541-1.312.542-.521 1.292-.521h27.25q.75 0 1.292.541.541.542.541 1.292 0 .792-.541 1.312-.542.521-1.292.521Zm0-8.916q-.75 0-1.292-.521-.541-.521-.541-1.313 0-.75.541-1.291.542-.542 1.292-.542h27.25q.75 0 1.292.542.541.541.541 1.291 0 .792-.541 1.313-.542.521-1.292.521Z"/></svg>
+        </header>
+        
+        <section class="hero">
+            <h1>Regain your confidence on the court.</h1>
+            <p class="subhead">A shoe built with purpose and to take your game to the next level.</p>
+            <svg class="down-arrow" xmlns="http://www.w3.org/2000/svg" height="40" width="40"><path d="M20 32.875q-.333 0-.667-.125-.333-.125-.625-.417L7.667 21.292Q7.125 20.75 7.125 20t.542-1.292q.583-.541 1.312-.541.729 0 1.271.541l7.917 7.875V8.208q0-.791.541-1.312.542-.521 1.292-.521.792 0 1.312.542.521.541.521 1.291v18.375l7.917-7.875q.542-.541 1.271-.541.729 0 1.312.541.542.542.542 1.292t-.542 1.292L21.292 32.333q-.292.292-.625.417-.334.125-.667.125Z"/></svg>
+        </section>
+
+        <section class="more-info">
+            <div class="feature">
+                <div class="content">
+                    <p class="title">Lightweight</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nisi laudantium fugit labore officia.</p>
+                </div>
+                <img src="assets/shoes-1.jpg" alt="Black shoes">
+            </div>
+            <div class="feature reverse">
+                <div class="content">
+                    <p class="title">Lightweight</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nisi laudantium fugit labore officia.</p>
+                </div>
+                <img src="assets/shoes-2.jpg" alt="Casual shoes">
+            </div>
+            <div class="feature">
+                <div class="content">
+                    <p class="title">Lightweight</p>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae consequuntur nisi laudantium fugit labore officia.</p>
+                </div>
+                <img src="assets/shoes-3.jpg" alt="Brown shoes">
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const menu = document.querySelector('.menu')
+        const close = document.querySelector('.close')
+        const nav = document.querySelector('nav')
+
+        menu.addEventListener('click', () => {
+            nav.classList.add('open-nav')
+        })
+        close.addEventListener('click', () => {
+            nav.classList.remove('open-nav')
+        })
+    </script>
+</body>
+</html>
