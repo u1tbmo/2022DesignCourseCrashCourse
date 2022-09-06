@@ -1,4 +1,4 @@
-# ArtPortfolioWebsite-Test
+# 2022DesignCourseCrashCourse
 
 https://u1tbmo.github.io/2022DesignCourseCrashCourse/
 
